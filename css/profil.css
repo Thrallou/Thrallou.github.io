@@ -1,0 +1,194 @@
+
+body {
+  width: 100%;
+}
+/*L'entête de la page*/
+header {
+  display: inline-flex;
+  background-color: black;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+/*Permet de gérer la taille du header*/
+nav{
+  display: inline-flex;
+  margin-top: 50px;
+}
+
+/*Le titre */
+h1 {
+  display: block;
+  margin-left: 500px;
+  color: #f4cd07;
+}
+
+/* etoile*/
+label {
+  margin-top: 20px;
+  padding-left: 10px;
+
+}
+
+.star-select {
+    display: inline-block;
+    height: 3em;
+    line-height: 3em;
+    vertical-align: middle;
+}
+
+.star-select__input {
+  display: none;
+}
+
+.star-select__star {
+  cursor: pointer;
+  height: 3em;
+  overflow: hidden;
+  float: right;
+}
+.star-select__star:before {
+  font-size: 1.9em;
+  content: '★';
+  color: gold;
+}
+
+/* image hotel*/
+.menu {
+  display: flex;
+  height: 120px;
+}
+
+/*  Inscription + connexion */
+
+li {
+  margin-left: 200px;
+  margin-top: -20px;
+  color: gold;
+}
+
+#log{
+margin-left: 130px;
+margin-top: 50px;
+margin-bottom: 0px;
+  background-color: black;
+  color: gold;
+  width: 100px;
+
+}
+/*Permet d'éloinger le bouton inscription du bouton connexion*/
+#ins{
+  margin-left: 20px;
+  background-color: black;
+  color: gold;
+  width: 100px;
+}
+
+main{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  margin-top: 5px;
+
+}
+
+.main {
+  margin-left: 500px;
+}
+.calendar{
+display:flex;
+justify-content:center;
+padding: 1%;
+border: 3px;
+border-radius: 25px;
+text-align: center;
+}
+
+#reservation{
+  margin-left:5em;
+}
+
+.rooms{
+  display:flex;
+  justify-content:center;
+  margin-top:2em;
+
+}
+
+.formroom{
+margin-right:1em;
+}
+
+  .all{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+  border-style:double;
+  width:35em;
+  height:12em;
+  background-color: black;
+  color: #f4cd07;
+
+  }
+
+.header .content {
+  display:table-row;
+  border: 1px solid gold;
+  text-align: center;
+  width: 100%;
+
+}
+
+input[type=button]:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid gold;
+}
+
+
+
+
+/* image section  */
+#Image1 {
+  display: flex;
+  width: 400px;
+  height: 320px;
+  margin-right: 80px;
+  border: 2px solid gold;
+}
+
+/* section  */
+
+h2 {
+  background-color: black ;
+  text-align: center;
+  color: #f4cd07;
+  font-family: 'Staatliches', cursive;
+}
+
+#h2 {
+  display: flex;
+  margin-top: 120px;
+  margin-right: 30px;
+  color: #f4cd07;
+
+}
+
+section {
+  display:flex;
+  background-color: black;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+
+#Copyright {
+  background-color: black ;
+  color: gold;
+  text-align: center;
+  font-weight: bold;
+}

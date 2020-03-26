@@ -1,0 +1,63 @@
+body{
+    font-family: 'Staatliches', cursive;
+    background: url(../image/fons.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+/* Bordered form */
+form {
+    border-radius: 80px;
+    width:89%;
+    padding: 20px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.menu {
+  display: flex;
+  height: 60px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid gold;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: black;
+    color: gold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid gold;
+}
+
+#erreur {
+  display: flex;
+  margin-top: -400px;
+  margin-left: 90px;
+  color: red;
+}
